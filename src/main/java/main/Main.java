@@ -15,7 +15,7 @@ public class Main {
 
         Comment comment = new Comment();
         comment.setAuthor("Taz");
-        comment.setText("Visual Basic with @Primary");
+        comment.setText("Visual Basic with @Qualifier");
         commentService.publishComment(comment);
     }
 }
